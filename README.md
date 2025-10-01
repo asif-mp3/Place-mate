@@ -201,7 +201,6 @@ CALENDAR_ID: "",  // Leave empty for default calendar
 | `MY_EMAIL` | Your primary email | `"student@college.edu"` |
 | `ALLOWED_SENDERS` | Email addresses to monitor | Array of strings |
 | `CALENDAR_ID` | Target calendar ID (optional) | `"abc123@group.calendar.google.com"` |
-| `ELIGIBILITY_TOLERANCE` | CGPA flexibility | `0.3` (7.5 req → 7.2 accepted) |
 | `SEND_SUMMARY_EMAIL` | Get email summaries | `true` / `false` |
 
 ### Branch Name Aliases
