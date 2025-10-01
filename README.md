@@ -230,7 +230,7 @@ LABEL_NAME: "AutoCalendarProcessed",  // Gmail label for processed emails
 ```mermaid
 graph TD
     A[Script Runs Every 10 min] --> B{New Emails?}
-    B -->|No| Z[Wait]
+    B -->|No| Z[End Execution]
     B -->|Yes| C[Check Keywords]
     C --> D{Has Placement Keywords?}
     D -->|No| E[Skip Email]
