@@ -119,13 +119,13 @@ Tired of manually checking placement emails? Missing deadlines? Confused about e
 ```javascript
 // Line 20-40 in the script - REPLACE THESE:
 
-MY_NAME: "Your Full Name",              // ⚠️ Replace with: Mohamed Asif M
+MY_NAME: "Your Full Name",              // ⚠️ Replace with: Brynn Huang
 MY_REG: "YOUR_REG_NUMBER",              // ⚠️ Replace with: 22BCE1634
 MY_BRANCH: "Your Branch Name",          // ⚠️ Replace with: Computer Science Engineering
-MY_CGPA: 0.0,                           // ⚠️ Replace with: 8.11
-MY_PERCENTAGE: 0.0,                     // ⚠️ Replace with: 81.1
-MY_10TH: 0,                             // ⚠️ Replace with: 84
-MY_12TH: 0,                             // ⚠️ Replace with: 87
+MY_CGPA: 0.0,                           // ⚠️ Replace with: 8.75
+MY_PERCENTAGE: 0.0,                     // ⚠️ Replace with: 95.5
+MY_10TH: 0,                             // ⚠️ Replace with: 94
+MY_12TH: 0,                             // ⚠️ Replace with: 95
 MY_BACKLOGS: 0,                         // ⚠️ Replace with: 0 (or your backlog count)
 MY_EMAIL: "your.email@college.edu",     // ⚠️ Replace with: your.email@vitstudent.ac.in
 ```
@@ -190,13 +190,13 @@ CALENDAR_ID: "",  // Leave empty for default calendar
 
 | Parameter | What It Does | Example Value |
 |-----------|-------------|---------------|
-| `MY_NAME` | Your full name (case-insensitive) | `"Mohamed Asif M"` |
+| `MY_NAME` | Your full name (case-insensitive) | `"Brynn Huang"` |
 | `MY_REG` | Registration/roll number | `"22BCE1634"` |
 | `MY_BRANCH` | Your academic branch | `"Computer Science Engineering"` |
-| `MY_CGPA` | Current CGPA | `8.11` |
-| `MY_PERCENTAGE` | Current overall percentage | `81.1` |
-| `MY_10TH` | 10th grade percentage | `84` |
-| `MY_12TH` | 12th grade percentage | `87` |
+| `MY_CGPA` | Current CGPA | `8.75` |
+| `MY_PERCENTAGE` | Current overall percentage | `95.5` |
+| `MY_10TH` | 10th grade percentage | `94` |
+| `MY_12TH` | 12th grade percentage | `95` |
 | `MY_BACKLOGS` | Number of active backlogs | `0` |
 | `MY_EMAIL` | Your primary email | `"student@college.edu"` |
 | `ALLOWED_SENDERS` | Email addresses to monitor | Array of strings |
@@ -597,20 +597,7 @@ If PlacetTrac helped you land that dream placement, consider:
 - 🍕 **Buy me a coffee** (if you're feeling generous!)
 - 📝 **Write a review/testimonial**
 - 🐛 **Report bugs or suggest features**
-
----
-
-## 🎉 Success Stories
-
-> *"PlacetTrac saved me from missing 3 deadlines in one week. Got shortlisted for Microsoft because I didn't miss the registration!"*  
-> — Final Year CSE Student
-
-> *"No more manually checking 50 emails daily. This script is a lifesaver during placement season."*  
-> — Placement Coordinator
-
-> *"The eligibility checking is so smart. I only see opportunities I'm actually qualified for."*  
-> — B.Tech Student
-
+- 
 ---
 
 <div align="center">
