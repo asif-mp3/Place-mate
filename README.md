@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📅 PlacetTrac - Smart Placement Calendar Automation
+# 📅 PlaceTrac - Smart Placement Calendar Automation
 
 <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
@@ -26,9 +26,9 @@
 
 ---
 
-## 🎯 Why PlacetTrac?
+## 🎯 Why PlaceTrac?
 
-Tired of manually checking placement emails? Missing deadlines? Confused about eligibility? **PlacetTrac** is your AI-powered placement assistant that:
+Tired of manually checking placement emails? Missing deadlines? Confused about eligibility? **PlaceTrac** is your AI-powered placement assistant that:
 
 - 🔍 **Scans** your inbox for placement opportunities
 - 🧠 **Understands** eligibility criteria (CGPA, branch, backlogs)
@@ -96,7 +96,7 @@ Tired of manually checking placement emails? Missing deadlines? Confused about e
 
 1. Go to [Google Apps Script](https://script.google.com/)
 2. Click **"New Project"**
-3. Name it **"PlacetTrac Automation"**
+3. Name it **"PlaceTrac Automation"**
 
 #### Step 2: Enable Required APIs
 
@@ -109,7 +109,7 @@ Tired of manually checking placement emails? Missing deadlines? Confused about e
 #### Step 3: Copy the Code
 
 1. Delete any existing code in `Code.gs`
-2. Copy the entire script from [`PlacetTrac.gs`](./PlacetTrac.gs)
+2. Copy the entire script from [`PlaceTrac.gs`](./PlaceTrac.gs)
 3. Paste it into your Apps Script editor
 
 #### Step 4: Configure Your Details
@@ -158,7 +158,7 @@ CALENDAR_ID: "",  // Leave empty for default calendar
 2. Select function: **`myFunction`**
 3. Click **"Review Permissions"**
 4. Choose your Google account
-5. Click **"Advanced"** → **"Go to PlacetTrac (unsafe)"**
+5. Click **"Advanced"** → **"Go to PlaceTrac (unsafe)"**
 6. Click **"Allow"**
 
 > ⚠️ Google shows this warning because it's a custom script. It's safe - you wrote it!
@@ -249,7 +249,7 @@ graph TD
 
 ### Event Creation Logic
 
-PlacetTrac creates calendar events **ONLY IF**:
+PlaceTrac creates calendar events **ONLY IF**:
 
 1. ✅ Your name/reg number appears in:
    - Email body
@@ -439,7 +439,7 @@ You'll receive emails like:
 
 ## 🔐 Privacy & Security
 
-### What Data Does PlacetTrac Access?
+### What Data Does PlaceTrac Access?
 
 - ✅ **Gmail**: Reads emails from specified senders
 - ✅ **Calendar**: Creates/modifies events
@@ -549,7 +549,7 @@ Add all your emails to `ALLOWED_SENDERS` or forward placement emails to one acco
 <details>
 <summary><b>Does it delete duplicate events?</b></summary>
 
-Yes! PlacetTrac checks if an event already exists before creating a new one (within a 10-minute window).
+Yes! PlaceTrac checks if an event already exists before creating a new one (within a 10-minute window).
 
 </details>
 
@@ -574,7 +574,7 @@ Yes! In the script, find `createCalendarEvent` function and modify the reminder 
 <details>
 <summary><b>What about offline events on campus?</b></summary>
 
-PlacetTrac extracts venue information and marks events as "Online" only if explicitly mentioned. Campus events work perfectly!
+PlaceTrac extracts venue information and marks events as "Online" only if explicitly mentioned. Campus events work perfectly!
 
 </details>
 
@@ -590,7 +590,7 @@ Free to use, modify, and distribute. Attribution appreciated! 🙏
 
 ## 💖 Support the Project
 
-If PlacetTrac helped you land that dream placement, consider:
+If PlaceTrac helped you land that dream placement, consider:
 
 - ⭐ **Star this repository**
 - 🐦 **Share on social media**
@@ -604,7 +604,7 @@ If PlacetTrac helped you land that dream placement, consider:
 
 ## 🚀 Ready to Automate Your Placement Journey?
 
-**[⬆️ Back to Top](#-PlacetTrac---smart-placement-calendar-automation) | [🐛 Report Bug](https://github.com/asif-mp3/PlacetTrac/issues) | [💡 Request Feature](https://github.com/asif-mp3/PlacetTrac/issues)**
+**[⬆️ Back to Top](#-PlaceTrac---smart-placement-calendar-automation) | [🐛 Report Bug](https://github.com/asif-mp3/PlaceTrac/issues) | [💡 Request Feature](https://github.com/asif-mp3/PlaceTrac/issues)**
 
 ---
 
